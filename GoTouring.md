@@ -1,5 +1,5 @@
 # Go Touring
-[Main Page] (readme.md)
+[Main Page](README.md)
 
 - Go Touring - Travel Agent Search Engine
 - Go Toruing API 
