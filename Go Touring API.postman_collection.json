@@ -1,0 +1,377 @@
+{
+	"info": {
+		"_postman_id": "5232a98c-ff7e-41e8-b08f-0711e4a9dfad",
+		"name": "Go Touring",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "API - List Brands",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "function",
+						"value": "1",
+						"type": "text"
+					},
+					{
+						"key": "devmode",
+						"value": "true",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sitebaseurl",
+						"value": "premium.go-touring.com.au",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://premium.go-touring.com.au/api",
+					"protocol": "https",
+					"host": [
+						"premium",
+						"go-touring",
+						"com",
+						"au"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API - List ages groups",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "function",
+						"value": "4",
+						"type": "text"
+					},
+					{
+						"key": "devmode",
+						"value": "true",
+						"type": "text"
+					},
+					{
+						"key": "sitebaseurl",
+						"value": "premium.go-touring.com.au",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://premium.go-touring.com.au/api",
+					"protocol": "http",
+					"host": [
+						"premium",
+						"go-touring",
+						"com",
+						"au"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API - List group sizes",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "function",
+						"value": "5",
+						"type": "text"
+					},
+					{
+						"key": "devmode",
+						"value": "true",
+						"type": "text"
+					},
+					{
+						"key": "sitebaseurl",
+						"value": "premium.go-touring.com.au",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://premium.go-touring.com.au/api",
+					"protocol": "http",
+					"host": [
+						"premium",
+						"go-touring",
+						"com",
+						"au"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API - List travel types",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "function",
+						"value": "3",
+						"type": "text"
+					},
+					{
+						"key": "devmode",
+						"value": "true",
+						"type": "text"
+					},
+					{
+						"key": "sitebaseurl",
+						"value": "premium.go-touring.com.au",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://premium.go-touring.com.au/api",
+					"protocol": "http",
+					"host": [
+						"premium",
+						"go-touring",
+						"com",
+						"au"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API - List start locations",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "function",
+						"value": "2",
+						"type": "text"
+					},
+					{
+						"key": "devmode",
+						"value": "true",
+						"type": "text"
+					},
+					{
+						"key": "sitebaseurl",
+						"value": "premium.go-touring.com.au",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://premium.go-touring.com.au/api",
+					"protocol": "http",
+					"host": [
+						"premium",
+						"go-touring",
+						"com",
+						"au"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API - Search for tours",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "function",
+						"value": "6",
+						"type": "text"
+					},
+					{
+						"key": "devmode",
+						"value": "true",
+						"type": "text"
+					},
+					{
+						"key": "sitebaseurl",
+						"value": "premium.go-touring.com.au",
+						"type": "text"
+					},
+					{
+						"key": "start_location",
+						"value": "Alice Springs",
+						"type": "text"
+					},
+					{
+						"key": "travel_type",
+						"value": "0",
+						"type": "text"
+					},
+					{
+						"key": "SearchText",
+						"value": "Larapinta ",
+						"type": "text"
+					},
+					{
+						"key": "start_date",
+						"value": "2021-11-12",
+						"type": "text"
+					},
+					{
+						"key": "end_date",
+						"value": "2022-05-01",
+						"type": "text"
+					},
+					{
+						"key": "age_range",
+						"value": "0",
+						"type": "text"
+					},
+					{
+						"key": "group_size",
+						"value": "0",
+						"type": "text"
+					},
+					{
+						"key": "brands",
+						"value": "1,2,3,4,216",
+						"type": "text"
+					},
+					{
+						"key": "price_min",
+						"value": "0",
+						"type": "text"
+					},
+					{
+						"key": "price_max",
+						"value": "999999",
+						"type": "text"
+					},
+					{
+						"key": "days_min",
+						"value": "0",
+						"type": "text"
+					},
+					{
+						"key": "days_max",
+						"value": "999999",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://premium.go-touring.com.au/api",
+					"protocol": "http",
+					"host": [
+						"premium",
+						"go-touring",
+						"com",
+						"au"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API - Get tour summarys",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "function",
+						"value": "7",
+						"type": "text"
+					},
+					{
+						"key": "devmode",
+						"value": "true",
+						"type": "text"
+					},
+					{
+						"key": "sitebaseurl",
+						"value": "premium.go-touring.com.au",
+						"type": "text"
+					},
+					{
+						"key": "tours",
+						"value": "87955,87962",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://premium.go-touring.com.au/api",
+					"protocol": "http",
+					"host": [
+						"premium",
+						"go-touring",
+						"com",
+						"au"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API - Get tour details",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "function",
+						"value": "8",
+						"type": "text"
+					},
+					{
+						"key": "devmode",
+						"value": "true",
+						"type": "text"
+					},
+					{
+						"key": "sitebaseurl",
+						"value": "premium.go-touring.com.au",
+						"type": "text"
+					},
+					{
+						"key": "tourid",
+						"value": "87955",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://premium.go-touring.com.au/api",
+					"protocol": "http",
+					"host": [
+						"premium",
+						"go-touring",
+						"com",
+						"au"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
