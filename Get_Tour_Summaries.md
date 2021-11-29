@@ -1,4 +1,3 @@
-[Go Touring API](GoTouringAPI.md)
 
 # Get Tour Summarys
 This API will return a list of summary tour details for the provided arrray of tourid's.   The tour information returned is basic is used to fill a results page of the search.
