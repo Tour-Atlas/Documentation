@@ -10,7 +10,7 @@ https://\<your base URL\>/api
 ## Header parameters
 **function**: 7
 
-**tours**: csv of toruid's ie. 87955,87962
+**tours**: csv of tourid's ie. 87955,87962
 
 Note:  Faster results are returned for fewer tourid's.  Try and restrict calls to 30 or less tourid's.
 
