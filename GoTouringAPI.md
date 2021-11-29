@@ -46,7 +46,7 @@ This response will be a JSON object with two fields.
 - [List travel types](List_Travel_Types.md).   
 - [List start locations](List_Locations.md).   
 - [Search for tours](Search_for_Tours.md).  
-- [Get tour summaries](Get_Tour_Summarys.md).  
+- [Get tour summaries](Get_Tour_Summaries.md).  
 - [Get tour details](Get_Tour_Details.md).   
 
 
