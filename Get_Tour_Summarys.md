@@ -52,5 +52,5 @@ https://\<your base URL\>/api
 }
 ```
 
-This API will return an array of all matched tours.
+This API will return an array of all matched tours.  Use this array to sort your results.  Call the Get Tour Summary API to get the summary listing for a group of tours. 
 
