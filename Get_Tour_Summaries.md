@@ -1,40 +1,18 @@
 [Go Touring API](GoTouringAPI.md)
 
-# Search for Tours 
-This API will return a list of tours that match the search parameter.   The tour information returned is very basic and allows for a level of sorting and filtering.
+# Get Tour Summarys
+This API will return a list of summary tour details for the provided arrray of tourid's.   The tour information returned is basic is used to fill a results page of the search.
 
 
 ## URL
 https://\<your base URL\>/api
 
 ## Header parameters
-**function**: 6
+**function**: 7
 
-**start_location**: One of the starting locations from the locations API. Text i.e Alice Springs
+**tours**: csv of toruid's ie. 87955,87962
 
-**travel_type**: One of the travel types from the API . i.e 0 = All types.
-
-**SearchText**: Text used for the search.  If the words are surrounded by double quotes the search is a phase search i.e. Lakes or "Salt Lakes"
-
-**start_date**: Date used for departure start filter. Start dates greater to or equal to this date will be returned. Date format must be yyyy-MM-dd
-
-**end_date**: Date used for departure start filter.  Start dates less than or equal to this date will be returned. Date format must be yyyy-MM-dd
-
-**age_range**:  One of the age range id from the API .
-
-**group_size**:  Group size ID from the API.
-
-**brands**: An array of brand id's .  Tours will be return from these brands.
-
-**price_min**: Min price of tours, use 0 as default.
-
-**price_max**: Max price for tours, use 999999 as default.
-
-**days_min**: Min number of days for a tour, use 0 as default.
-
-**days_max**: Max number of days for a tour, use 999999 as default.
-
-
+Note:  Faster results are returned for fewer tourid's.  Try and restrict calls to 30 or less tourid's.
 
 ## Results 
 ```
@@ -42,15 +20,61 @@ https://\<your base URL\>/api
   "result": bool, 
   "data": [
     {
+		"duration": integer,
+		"rank": integer,
+		"num_reviews": integer,
+		"country_code": string,
+		"isnew": bool,
+		"agemin": integer,
+		"agemax": 3integer,
+		"groupsizemin": integer,
+		"groupsizemax": integer,
+		"ja_show": bool,
+		"discount_rrp": decimal,
+		"discount_price_label": string,
+		"promotion_internaletitle": string,
+		"promotion_internalenotes": string,
 		"tourid": integer,
+		"code": string,
+		"numberofdays": integer,
 		"rrp": decimal,
-		"days": integer,
-		"rank": integer (Larger the number the better the match),
-		"isnew": integer (0 or 1)
+		"mapurl": string,
+		"january": bool,
+		"february": bool,
+		"march": bool,
+		"april": bool,
+		"may": bool,
+		"june": bool,
+		"july": bool,
+		"august": bool,
+		"september": bool,
+		"october": bool,
+		"november": bool,
+		"december": bool,
+		"includesflights": bool,
+		"startcity": string,
+		"endcity": string,
+		"title": string,
+		"preferredprovider": integer, -- not used
+		"companyname": string,  -- Brand name
+		"startcountry": string,
+		"endcountry": string,
+		"style": string,
+		"physicality": integer,
+		"isadvertisement": integer, -- not used
+		"themenames": null,  -- not used
+		"description": null,  -- not used
+		"tourimage": csv string of URL's,
+		"tour_type": string,
+		"from_price": "$3,285",
+		"start_location": string,
+		"end_location": string,
+		"physicality_string": string,
+		"RRP_Price": string, -- Formatted dollar amount
+		"Price": string, -- Formatted dollar amount will any discounts applied
+		"totalfound": integer
 	}
   ]
 }
 ```
-
-This API will return an array of all matched tours.  Use this array to sort your results.  Call the Get Tour Summary API to get the summary listing for a group of tours. 
 
