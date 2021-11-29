@@ -39,14 +39,14 @@ This response will be a JSON object with two fields.
 
 
 ## Supported Endpoints
-- [List Brands](List_Brands.md).  Function: 1
-- List age groups.  Function: 2
-- List group sizes.  Function: 3
-- List travel types.  Function: 4
-- List start locations.  Function: 5
-- Search for tours.  Function: 6
-- Get tour summaries.  Function: 7
-- Get tour details.  Function: 8
+- [List Brands](List_Brands.md).   
+- [List age groups](List_Age_Groups.md).  
+- [List group sizes](List_Group_Sizes.md).   
+- [List travel types](List_Travel_Types.md).   
+- [List start locations](List_Locations.md).   
+- Search for tours.  
+- Get tour summaries.  
+- Get tour details.   
 
 
 
