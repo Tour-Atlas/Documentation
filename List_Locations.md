@@ -1,3 +1,5 @@
+[Go Touring API](GoTouringAPI.md)
+
 # List Locations
 This API will return a list of start locations.   
 
