@@ -1,6 +1,6 @@
 [Go Touring API](GoTouringAPI.md)
 
-# Search for Tours
+# Search for Tours 
 This API will return a list of tours that match the search parameter.   The tour information returned is very basic and allows for a level of sorting and filtering.
 
 
