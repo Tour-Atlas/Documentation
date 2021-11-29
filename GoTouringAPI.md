@@ -9,12 +9,25 @@ All requests must come from a predefined URL which is linked to your account.  S
 Go Touring API supports the use of endpoints from a development enviroment.  You must provide the following Header keys with your HTTPS POSTS
 
 **devmode**
+
 Set this value to true
 
 **sitebaseurl**
+
 This is your base URL as defined on your account
 
 
 ## Supported Endpoints
+- List Brands
+- List age groups
+- List group sizes
+- List travel types
+- List start locations
+- Search for tours
+- Get tour summaries
+- Get tour details
+
+
+
 
 
