@@ -28,6 +28,16 @@ Depending on the API endpoint you will be required to provide HTTP Header values
 
 This is a value from 1 to 8 which designates what request is being called
 
+## Post results
+As long as you supply the required paramters in the HTTP Header you will always get a value response from teh API endpoint.
+
+This response will be a JSON object with two fields.
+
+**result**:  true or false.  Any false result means that while the POST worked then parameters were incorrect.  
+
+**data**: This wil be a JSON object with teh results from the call.  The exact results returned will depend on the function called.
+
+
 ## Supported Endpoints
 - [List Brands](List_Brands.md).  Function: 1
 - List age groups.  Function: 2
