@@ -18,7 +18,7 @@ This is your base URL as defined on your account
 
 ## Postman project
 If you are using postman (https://www.postman.com/) you can use the following project file to test the API endpoints.
-- [Postman project](Go%20Touring%20API.postman_collection.json)
+- [Postman project](Go_Touring_API.postman_collection.zip)
 
 ## Supported Endpoints
 - List Brands
