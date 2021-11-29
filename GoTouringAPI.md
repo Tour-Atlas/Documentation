@@ -16,12 +16,14 @@ Set this value to true
 
 This is your base URL as defined on your account
 
+**Please Note**:  In dev mode text valuesfield have there characters randomly replaced.
+
 ## Postman project
 If you are using postman (https://www.postman.com/) you can use the following project file to test the API endpoints.
 - [Postman project](Go_Touring_API.postman_collection.zip)
 
 ## Supported Endpoints
-- List Brands
+- [List Brands](List_Brands.md)
 - List age groups
 - List group sizes
 - List travel types
