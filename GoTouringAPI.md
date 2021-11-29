@@ -16,6 +16,9 @@ Set this value to true
 
 This is your base URL as defined on your account
 
+## Postman project
+If you are using postman (https://www.postman.com/) you can use the following project file to test the API endpoints.
+
 
 ## Supported Endpoints
 - List Brands
