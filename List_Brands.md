@@ -8,3 +8,18 @@ https://\<your base URL\>/api
 
 ## Header parameters
 **function**: 1
+
+## Results 
+```
+{
+  "result": bool, 
+  "data": [
+    {        
+        "brandid": integer,            
+        "brandname": string          
+    }
+  ]
+}
+```
+
+The brands listed will depend on what you have selected via the Administration portal.
