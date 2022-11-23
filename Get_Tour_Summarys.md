@@ -12,6 +12,8 @@ https://\<your base URL\>/api
 
 **tours**: csv of tourid's ie. 87955,87962
 
+**currency**: The currency for pricing.  
+
 Note:  Faster results are returned for fewer tourid's.  Try and restrict calls to 30 or less tourid's.
 
 ## Results 
