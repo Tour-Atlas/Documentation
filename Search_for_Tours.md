@@ -34,7 +34,7 @@ https://\<your base URL\>/api
 
 **days_max**: Max number of days for a tour, use 999999 as default.
 
-
+**currency**: The currency for pricing.  When supplied the min and max price must be in this currency.
 
 ## Results 
 ```
