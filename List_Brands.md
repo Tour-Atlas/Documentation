@@ -18,7 +18,20 @@ https://\<your base URL\>/api
   "data": [
     {        
         "brandid": integer,            
-        "brandname": string          
+        "brandname": string ,
+        "brandlogo": string,
+        "brandbookingurl": string,
+        "tourinclusions": string,
+        "destinations": string,
+        "uniquesellingpoints": string,
+        "agentincentiveprogram": string,
+        "customerloyaltyincentive": string,
+        "transporttype": string,
+        "branddescription": string,
+        "insurancedetails": string,
+        "branddescriptioncondensed": string,
+        "contactnumber": string ,
+        "mainwebsiteurl": string          
     }
   ]
 }
